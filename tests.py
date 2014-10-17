@@ -1,3 +1,4 @@
+#!/usr/bin/env python2.7
 import unittest
 from pyfiscan import is_not_secure
 from database import Database
