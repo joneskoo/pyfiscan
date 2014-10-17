@@ -36,7 +36,4 @@ class DatabaseHandlers(unittest.TestCase):
         self.assertTrue(isinstance(database, Database))
 
 if __name__ == '__main__':
-    suite1 = unittest.TestLoader().loadTestsFromTestCase(CompareVersions)
-    suite2 = unittest.TestLoader().loadTestsFromTestCase(DatabaseHandlers)
-    alltests = unittest.TestSuite([suite1, suite2])
-    unittest.TextTestRunner(verbosity=2).run(alltests)
+    unittest.main()
